@@ -1,6 +1,7 @@
+import 'package:MusicPlayer/Themes/Theme_Provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sepotipai_/Themes/Theme_Provider.dart';
+
 
 class NeuBox extends StatelessWidget {
   final Widget? child;

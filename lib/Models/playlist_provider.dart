@@ -1,6 +1,7 @@
+import 'package:MusicPlayer/Models/Song.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:sepotipai_/Models/Song.dart';
+
 
 class PlaylistProvider extends ChangeNotifier {
   final List<Song> _playlist = [
@@ -61,6 +62,20 @@ class PlaylistProvider extends ChangeNotifier {
       artistName: "Ardhito Pramono",
       albumArtImagePath: "assets/Images/h.jpeg",
       audioPath: "Audio/waking.mp3",
+    ),
+    //9
+    Song(
+      songName: "Anything You Want",
+      artistName: "Reality Club",
+      albumArtImagePath: "assets/Images/i.jpeg",
+      audioPath: "Audio/ayw.mp3",
+    ),
+    //10
+    Song(
+      songName: "The Line",
+      artistName: "Twenty One Pilots",
+      albumArtImagePath: "assets/Images/j.jpeg",
+      audioPath: "Audio/theline.mp3",
     ),
   ];
 

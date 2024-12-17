@@ -1,7 +1,7 @@
+import 'package:MusicPlayer/Themes/Theme_Provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sepotipai_/Themes/Theme_Provider.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});

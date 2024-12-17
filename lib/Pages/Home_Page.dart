@@ -1,9 +1,10 @@
+import 'package:MusicPlayer/Components/drawer.dart';
+import 'package:MusicPlayer/Models/Song.dart';
+import 'package:MusicPlayer/Models/playlist_provider.dart';
+import 'package:MusicPlayer/Pages/Song_Page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sepotipai_/Components/drawer.dart';
-import 'package:sepotipai_/Models/Song.dart';
-import 'package:sepotipai_/Models/playlist_provider.dart';
-import 'package:sepotipai_/Pages/Song_Page.dart';
+
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

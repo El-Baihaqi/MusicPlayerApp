@@ -1,7 +1,8 @@
+import 'package:MusicPlayer/Components/neu_box.dart';
+import 'package:MusicPlayer/Models/playlist_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sepotipai_/Components/neu_box.dart';
-import 'package:sepotipai_/Models/playlist_provider.dart';
+
 
 class SongPage extends StatelessWidget {
   const SongPage({super.key});

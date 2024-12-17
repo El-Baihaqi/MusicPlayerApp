@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:sepotipai_/Models/playlist_provider.dart';
-import 'package:sepotipai_/Pages/Home_Page.dart';
-import 'package:sepotipai_/Themes/Theme_Provider.dart';
+import 'package:MusicPlayer/Models/playlist_provider.dart';
+import 'package:MusicPlayer/Pages/Home_Page.dart';
+import 'package:MusicPlayer/Themes/Theme_Provider.dart';
 
 void main() {
   runApp(
